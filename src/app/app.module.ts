@@ -23,7 +23,7 @@ import { TodoEffects } from './state/todos/todo.effects';
     IonicModule.forRoot(),
     AppRoutingModule,
     IonicStorageModule.forRoot(),
-    StoreModule.forRoot({ todos: todoReducer }),
+    StoreModule.forRoot({ todosKonj: todoReducer }),
     StoreDevtoolsModule.instrument({
       maxAge: 25,
       logOnly: environment.production,
